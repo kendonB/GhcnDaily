@@ -1,5 +1,5 @@
 downloadDailyData <- function(urlList, directory = DAILY.DATA.DIRECTORY){
-  require(R.utils)
+   
   if (!file.exists(directory)) dir.create(directory)
   if (isUrl(urlList[1])){
   #####

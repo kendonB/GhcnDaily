@@ -1,5 +1,5 @@
 readDailyFile <- function(filename, directory = DAILY.FILES.DIRECTORY){
-  require(R.utils)
+  
   if (!isUrl(filename)){  
    fname <- file.path(directory,filename, fsep =.Platform$file.sep)
   } else {

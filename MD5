@@ -1,11 +1,11 @@
-02ffaf0676e60ed43dbec6f56ae37cfd *DESCRIPTION
-df390c53434517b304ac5db487184641 *NAMESPACE
+77dbd3c121d2eb139bba84728e9475b9 *DESCRIPTION
+78c876b4dbc923060869086b19edeba3 *NAMESPACE
 b51e49a97db0a5f691645630eeb9947f *R/Urls.R
 0868a286d19d63dec47d1d7f8b7b2933 *R/convertFiles.R
 51b44e864c9527dfb789461bdaaa774c *R/createArray.R
 bd51e6af17941a0e9b8b52632129e246 *R/createStationMonthly.R
 037d02cc2b3bee42b12e307d0b4b2614 *R/downloadCountry.R
-ba8b461ddce6631949bc21a6cc5401f3 *R/downloadDailyData.R
+532b334fd6fa020de2bd1470013dea7c *R/downloadDailyData.R
 318f46d612fa0cf2d65603f145a39ac4 *R/downloadDailyFiles.R
 60f0e8483ff9722f0de3b39c97588a50 *R/downloadDailyInventory.R
 e0b830f8877defd24c825abf45e4974e *R/downloadDailyMetadata.R
@@ -14,7 +14,7 @@ e0b830f8877defd24c825abf45e4974e *R/downloadDailyMetadata.R
 7e0749e2914c4506f73693908884679e *R/mergeInventory.R
 f25b520ed30320c6ad310d07b1eabd0b *R/readCountry.R
 56119fc835284f126a79709c822474fe *R/readDailyData.R
-7c01fcb2a2985552049d50cd0c148b7c *R/readDailyFile.R
+a151f7b56bbb8679d06bf6cf508a6dfb *R/readDailyFile.R
 31d7f90358907379954100f3ec30b422 *R/readDailyInventory.R
 c040705fcb9808b57454596b5e0bb136 *R/readDailyMetadata.R
 cc97a5b92616f5c7d385468cd705f5f4 *R/readNetCdf.R
