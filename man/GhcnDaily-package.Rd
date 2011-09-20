@@ -18,8 +18,8 @@
 \tabular{ll}{
 Package: \tab GhcnDaily\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2011-08-20\cr
+Version: \tab 1.2\cr
+Date: \tab 2011-09-20\cr
 License: \tab GPL (>=2)\cr
 LazyLoad: \tab yes\cr
 LazyData: \tab yes\cr
