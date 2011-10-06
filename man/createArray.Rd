@@ -16,7 +16,7 @@
  
 }
 \usage{createArray(Inventory, element = "TMAX", 
-                indir = DAILY.DATA.DIRECTORY, na.rm = meanFunction, ...)
+                indir = DAILY.QA.DIRECTORY, na.rm = meanFunction, ...)
 }
  
 \arguments{

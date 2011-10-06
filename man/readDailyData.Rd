@@ -10,7 +10,7 @@
  
 }
 \usage{readDailyData(filename, element = "TMAX", 
-                     directory = DAILY.DATA.DIRECTORY)
+                     directory = DAILY.QA.DIRECTORY)
 }
  
 \arguments{

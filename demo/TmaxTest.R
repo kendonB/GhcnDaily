@@ -11,10 +11,11 @@ MaxInv <- MaxInv[1:1000,]
 dlist  <- makeDownloadList(MaxInv)
 
 downloadDailyData(dlist,directory = DAILY.DATA.DIRECTORY)
+convertRawToDat()
 
 TMAX  <- createArray(Inventory = MaxInv, element = "TMAX", 
-                     indir = DAILY.DATA.DIRECTORY,
-                     na.rm = meanFunction, 6)
+                     indir = DAILY.QA.DIRECTORY,
+                     na.rm = meanFunction, 7)
 
 writeNetCDF(Temps =TMAX,
             element ="TMAX",

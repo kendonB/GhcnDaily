@@ -1,5 +1,5 @@
 createArray <- function(Inventory, element = "TMAX",
-                          indir = DAILY.DATA.DIRECTORY,                            
+                          indir = DAILY.QA.DIRECTORY,                            
                           na.rm = meanFunction,...){
   require(abind)
   invElement <- unique(Inventory$Element)

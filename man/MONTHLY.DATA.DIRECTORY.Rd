@@ -23,4 +23,4 @@
 print(MONTHLY.DATA.DIRECTORY)
  
 }
-\keyword{datasets}
+\keyword{directories}

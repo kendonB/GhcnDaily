@@ -22,6 +22,7 @@
 \details{This function reads a .dly file and extracts TMIN
   and TMAX and returns a dataframe for the station including the
   Id, Year, element and 31 columns of data for the days of the month
+  and  returns the  31  columns for QA flags
  
 }
 \value{A data.frame of data for the file.

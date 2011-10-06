@@ -6,7 +6,7 @@ downloadDailyData <- function(urlList, directory = DAILY.DATA.DIRECTORY){
   for (thisUrl in 1:length(urlList)){
     print(urlList[thisUrl])
     X <- readDailyFile(urlList[thisUrl],directory = directory)
-    fname <- sub(".dly",".dat",basename(urlList[thisUrl]))
+    fname <- sub(".dly",".raw",basename(urlList[thisUrl]))
     fname <- file.path(directory,fname,fsep =.Platform$file.sep)
     write.table(X,fname)
   }

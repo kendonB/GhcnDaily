@@ -1,4 +1,4 @@
-readDailyData <- function(filename,element = "TMAX",directory = DAILY.DATA.DIRECTORY){
+readDailyData <- function(filename,element = "TMAX",directory = DAILY.QA.DIRECTORY){
   
   fname <- file.path(directory,filename, fsep =.Platform$file.sep)
   

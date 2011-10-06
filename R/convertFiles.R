@@ -4,7 +4,7 @@ convertFiles <- function(sourceDir = DAILY.FILES.DIRECTORY, destDir=DAILY.DATA.D
   for ( thisFile in 1:length(files)){
     print(thisFile) 
     X <- readDailyFile(files[thisFile], sourceDir )
-    fname <- sub(".dly",".dat",files[thisFile])
+    fname <- sub(".dly",".raw",files[thisFile])
     fname <- file.path(destDir,fname,fsep =.Platform$file.sep)
     write.table(X,fname)
     

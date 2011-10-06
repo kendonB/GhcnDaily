@@ -21,15 +21,15 @@
    the default value of \code{DAILY.FILES.DIRECTORY}
  
 }
-  \item{destDir}{The destination directory where the \code{.dat} files
-   are written. By default this is \code{"DailyData"} which is
+  \item{destDir}{The destination directory where the \code{.raw} files
+   are written. By default this is \code{"DailyRaw"} which is
    the default value of \code{DAILY.DATA.DIRECTORY}
  
 }
 }
 \details{ The .dly files are read and if the file contains a TMAX
   or TMIN element then that data is read out and written to a
-  the .dat file in the destination directory. Filenames remain
+  the .raw file in the destination directory. Filenames remain
   the same. That is the station Id is the filename
  
 }
