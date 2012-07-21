@@ -17,12 +17,7 @@
 \details{
   see ftp readme for flags
 }
-\source{
  
-}
-\references{
- 
-}
 \examples{
 print(DAILY.QA.DIRECTORY)
  

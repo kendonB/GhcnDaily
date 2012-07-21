@@ -43,12 +43,7 @@
  
 
  
-\examples{
-\dontrun{
-
-}
  
-}
  
 \keyword{ filetools}
 \keyword{ metadata } 

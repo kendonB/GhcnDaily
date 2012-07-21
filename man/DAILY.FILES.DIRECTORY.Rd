@@ -17,9 +17,7 @@
   The format is:
  chr "DailyFiles"
 }
-\details{
  
-}
 \source{\url{ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/readme.txt}
  
 }
