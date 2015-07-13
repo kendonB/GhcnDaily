@@ -5,7 +5,16 @@ Version: 1.5
 Date: 2012-07-21
 Author: Steven Mosher,
 Maintainer: Steven Mosher <moshersteven@gmail.com>
-Depends: R (>= 2.11.0), R.utils, R.oo, R.methodsS3, abind, ncdf
+Depends: R (>= 3.2.0) 
+Imports: 
+  R.utils, 
+  R.oo, 
+  R.methodsS3, 
+  abind,
+  ncdf,
+  dplyr,
+  magrittr,
+  tidyr
 Description: The GhcnDaily package provides the core functions required
         to download and format the GHCN Daily Data (TMax and Tmin) into
         Monthly datasets. It is currently restricted to operating with
